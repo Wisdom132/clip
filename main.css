@@ -1,0 +1,32 @@
+body {
+    font-family: 'ZCOOL XiaoWei', serif !important;
+}
+#diary_header {
+    background-image:linear-gradient(rgba(6, 6, 195, 0.55), rgba(0, 0, 34, 0.55)),url('header.png');
+    background-size: contain;
+    height:300px;
+    background-position: center center;
+}
+#notes_header {
+    background-image:linear-gradient(rgba(228, 31, 97, 0.55), rgba(0, 0, 34, 0.55)),url('header.png');
+    background-size: contain;
+    height:300px;
+    background-position: center center;
+}
+.header_text {
+    margin-top:100px;
+}
+
+@media (min-width:768px) {
+    .modal {
+    width:60% !important;
+}
+}
+@media (max-width:768px) {
+    .modal {
+    width:auto !important;
+}
+}
+/* .fixed-action-btn{
+right:50px;/*desired value*/
+} */
